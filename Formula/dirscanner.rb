@@ -12,4 +12,4 @@ class Dirscanner < Formula
   test do
     system "#{bin}/dirscanner", "--version"
   end
-en
+end
