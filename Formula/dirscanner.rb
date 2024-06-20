@@ -6,10 +6,10 @@ class Dirscanner < Formula
   license "MIT"
 
   def install
-    bin.install "bin/dirscanner"
+    bin.install "dirscanner"
   end
 
   test do
-    system "#{bin}/dirscanner", "--version"
+    system "dirscanner", "--version"
   end
 end
